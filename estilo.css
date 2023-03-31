@@ -1,0 +1,14 @@
+:root {
+    --cor_de_fundo:#000000;
+    --cor_primaria_fonte:#FFCC00;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.banner {
+    width: 1000%;
+    height: 100px;
+    background-color: var(--cor_de_fundo);
+}
