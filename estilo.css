@@ -7,18 +7,24 @@
     margin: 0;
     padding: 0;
 }
-.banner {
-    width: 1000%;
-    height: 100px;
+.painel {
+    width: 100%;
+    height: 50px;
     background-color: var(--cor_de_fundo);
+    color: #FFFFFF;
+    top: 10px;
+
 }
 .rodape {
     background-color: var(--cor_de_fundo);
     width: 100%;
-    height: 80px;
+    height: 50px;
 
 }
 .conteudo {
     width: 100%;
-    height: 500px;
+    height: 826px;
+    text-align: center;
+
 }
+
