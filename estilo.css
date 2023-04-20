@@ -1,6 +1,7 @@
 :root {
-    --cor_de_fundo:#000000;
+    --cor_de_fundo: #000000;
     --cor_primaria_fonte:#FFCC00;
+    
 
 }
 * {
@@ -13,14 +14,10 @@
     background-color: var(--cor_de_fundo);
     color: #FFFFFF;
     top: 10px;
+    
 
 }
-.rodape {
-    background-color: var(--cor_de_fundo);
-    width: 100%;
-    height: 50px;
 
-}
 .conteudo {
     width: 100%;
     height: 100%;
@@ -36,45 +33,32 @@ h1 {
 
 
 .hl {
-     top: 50px;
-     width: 30%;
-     height: 150px;
-     background: rgb(100, 100, 100);
-     margin: 30px 10px;
-     border-color: white;
-     border-width: 10px;
-     border-style: double;
-     padding: 129px 90px;
-     display: flex;
-     justify-content: left;
-     font-size: medium;
+  float: left;
+  width: 30%;
+  text-align: center;
+  margin-top: 100px;
+  
   }
 
  h2 {
-    color: #FFCC00;
-    position: relative;
-    top:15px;
+    color: #0400ff;
+    top: 15px;
+    
 
   }
 
-.exatas {
-  top: 50px;
+.planta {
+  float: right;
   width: 30%;
-  height: 150px;
-  background: rgb(100, 100, 100);
-  margin: 30px 10px;
-  border-color: white;
-  border-width: 10px;
-  border-style: double;
-  padding: 129px 90px;
-  display: flex;
-  justify-content: left;
-  font-size: medium;
-}   
+  text-align: center;
+  margin-top: 100px;
+  
+
+}
+
 
 h3 {
-    color: #FFCC00;
-    position: relative;
+    color: #ff4800;
     top: 200px;
     font-size: 20px;
     margin: 20px;
@@ -102,5 +86,4 @@ nav ul {
     background: gray;
     color: black;
   }
-
 
